@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "km-quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+editor: visual
+

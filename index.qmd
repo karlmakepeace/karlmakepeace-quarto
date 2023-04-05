@@ -1,0 +1,12 @@
+---
+title: "Karl Makepeace, Ph.D."
+---
+
+## Hi there 👋
+
+My personal website here is currently under construction. Should be up-to-date soon - stay tuned!
+
+```{r}
+#| echo: false
+emo::ji("construction")
+```
