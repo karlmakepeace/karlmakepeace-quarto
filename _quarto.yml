@@ -31,7 +31,7 @@ website:
       # - href: license.qmd
       #   text: License
       - text: "{{< fa brands linkedin-in >}}"
-        href: linkedin.com/in/karlmakepeace
+        href: https://linkedin.com/in/karlmakepeace
       - icon: github
         href: https://github.com/karlmakepeace
       - icon: twitter
