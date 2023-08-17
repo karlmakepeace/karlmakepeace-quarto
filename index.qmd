@@ -1,12 +1,71 @@
 ---
-title: "Karl Makepeace, Ph.D."
+# title: "Karl Makepeace, Ph.D."
+toc: false
+# image: static/images/km_avatar_lbl.jpeg
+image: static/images/km_avatar_mqss_1.png
+about:
+  template: trestles
+  image-shape: round
+# listing:
+#   contents: posts
+#   sort: "date desc"
+#   type: default
+#   categories: true
+#   sort-ui: false
+#   filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-## Hi there 👋
 
-My personal website here is currently under construction. Should be up-to-date soon - stay tuned!
+
+
+:::: {.columns}
+::: {.column width="33%"}
+*Science in pursuit,\
+Biochemistry's realm,\
+A decade unfolds.*
+
+*Mass spectrometrist,\
+Revealing proteins' secrets,\
+Orbitrap sees all.*
+
+*Cross-linking expert,\
+Proteins covalently bound,\
+Fragments to networks.*
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="33%"}
+*Prions and chaperones,\
+Dynamics under study,\
+Disorder intrigues.*
+
+*Mitochondria probed,\
+Proteins' sociology told,\
+Interactomic view*
+
+*Bioinformatics,\
+A proteogenomic expanse,\
+R skills honed, tools forged*
+:::
+
+::: {.column width="29%"}
+<!-- empty column to create gap -->
+:::
+::::
+
+
+[More about me ➡️](about.qmd){id='haiku'}
+
+
+
 
 ```{r}
 #| echo: false
-emo::ji("construction")
+tippy::tippy_this(elementId = "haiku", tooltip = "... and less haiku.")
 ```

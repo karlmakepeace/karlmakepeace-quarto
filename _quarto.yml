@@ -3,18 +3,55 @@ project:
   output-dir: docs
 
 website:
-  title: "km-quarto"
+  title: "Karl A. T. Makepeace"
+  site-url: "https://karlmakepeace.com"
+  description: "Karl A. T. Makepeace Personal Website"
+  # twitter-card: true
+  # open-graph: true
+  favicon: static/images/favicon.png
   navbar:
+    title: "KATM"
+    logo: static/images/favicon.png
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      # - href: index.qmd
+      #   text: Home
+      - href: about.qmd
+        text: About
+      # - href: projects.qmd
+      #   text: Projects
+      # - href: posts.qmd
+      #   text: Posts
+      - href: "./static/cv/karl-makepeace_cv_2023-08-14.pdf"
+        text: CV
+  page-footer:
+    left:
+      # - href: https://www.quarto.org
+      - text: Built with <a href="https://www.quarto.org">Posit Quarto</a>
+    right: 
+      # - href: license.qmd
+      #   text: License
+      - text: "{{< fa brands linkedin-in >}}"
+        href: linkedin.com/in/karlmakepeace
+      - icon: github
+        href: https://github.com/karlmakepeace
+      - icon: twitter
+        href: https://twitter.com/scikarl
+      # - icon: mastodon
+      #   href: https://fosstodon.org/@karlmakepeace
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-9584-2750
+      - text: "{{< ai researchgate size=1.25em >}}"
+        href: https://www.researchgate.net/profile/Karl-Makepeace
+      - text: "{{< ai google-scholar size=1.15em >}}"
+        href: https://scholar.google.ca/citations?user=W0-D1aYAAAAJ
+      # - icon: rss
+      #   href: index.xml
 format:
   html:
-    theme: yeti
+    theme: solar
+      # light: yeti
+      # dark: solar
     css: styles.css
     toc: true
 
 editor: visual
-

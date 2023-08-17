@@ -2,15 +2,85 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Karl Makepeace, Ph.D.",
+    "title": "Karl A. T. Makepeace",
     "section": "",
-    "text": "My personal website here is currently under construction. Should be up-to-date soon - stay tuned!\n\n\n🚧"
+    "text": "Science in pursuit,\nBiochemistry’s realm,\nA decade unfolds.\nMass spectrometrist,\nRevealing proteins’ secrets,\nOrbitrap sees all.\nCross-linking expert,\nProteins covalently bound,\nFragments to networks.\n\n\n\nPrions and chaperones,\nDynamics under study,\nDisorder intrigues.\nMitochondria probed,\nProteins’ sociology told,\nInteractomic view\nBioinformatics,\nA proteogenomic expanse,\nR skills honed, tools forged\n\n\n\n\nMore about me ➡️"
+  },
+  {
+    "objectID": "index.html#karl-a.-t.-makepeace-ph.d.",
+    "href": "index.html#karl-a.-t.-makepeace-ph.d.",
+    "title": "Karl A. T. Makepeace",
+    "section": "",
+    "text": "Science in pursuit,\nBiochemistry’s realm,\nA decade unfolds.\nMass spectrometrist,\nRevealing proteins’ secrets,\nOrbitrap sees all.\nCross-linking expert,\nProteins covalently bound,\nFragments to networks.\n\n\n\nPrions and chaperones,\nDynamics under study,\nDisorder intrigues.\nMitochondria probed,\nProteins’ sociology told,\nInteractomic view\nBioinformatics,\nA proteogenomic expanse,\nR skills honed, tools forged\n\n\n\n\nMore about me ➡️"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "An R package for peptides and proteogenomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package for HGVS nomenclature.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package for coloring (bio)polymer (e.g. DNA, RNA, AA) strings in a command line interface.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package to check best-before dates.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#packages",
+    "href": "projects.html#packages",
+    "title": "Projects",
+    "section": "",
+    "text": "An R package for peptides and proteogenomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package for HGVS nomenclature.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package for coloring (bio)polymer (e.g. DNA, RNA, AA) strings in a command line interface.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package to check best-before dates.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#books",
+    "href": "projects.html#books",
+    "title": "Projects",
+    "section": "Books",
+    "text": "Books\n\n\n\n\n\n\n\n\n\n\nxlmm\n\n\nCross-linking to Molecular Modelling.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#cheatsheets",
+    "href": "projects.html#cheatsheets",
+    "title": "Projects",
+    "section": "Cheatsheets",
+    "text": "Cheatsheets\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#presentations",
+    "href": "projects.html#presentations",
+    "title": "Projects",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#publications",
+    "href": "projects.html#publications",
+    "title": "Projects",
+    "section": "Publications",
+    "text": "Publications\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#posters",
+    "href": "projects.html#posters",
+    "title": "Projects",
+    "section": "Posters",
+    "text": "Posters\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a biochemist specializing in mass spectrometry, proteomics, and bioinformatics. My passion lies in leveraging cutting-edge technologies and approaches to explore diverse protein systems and devise innovative research methods that integrate these techniques.\nThroughout my career, I have accumulated a wealth of experience as a proteomics research technician and later as a Ph.D. candidate at the University of Victoria Genome British Columbia Proteomics Centre. During this time, I have conducted numerous structural proteomics experiments for both internal and external research projects, and have collaborated with colleagues to develop novel technologies and methods. Our efforts have significantly contributed to multiple publications in peer-reviewed journals.\nIn my most recent role I gained experience in the emerging field of proteogenomics, which combines proteomics and genomics to gain a more comprehensive understanding of protein expression and (dys)function. As someone with a passion for leveraging cutting-edge technologies, I am thrilled to be expanding my expertise in this exciting area of research.\nMy goal is to use my expertise in these advanced technologies and methodologies to push the boundaries of our understanding of protein systems. I am excited about creating innovative research methods that can help us unravel the complexities of these systems and pave the way for future breakthroughs.\n\n\n😄"
+    "text": "I hold a Ph.D. in biochemistry from the University of Victoria. My journey of over 12 years in research has been dedicated to the fascinating realm of mass spectrometry-based techniques, structural proteomics, and bioinformatics. I am an expert in cross-linking mass spectrometry (XL-MS), having developed and applied innovative methods for studying protein structure, dynamics, and interactions in various biological contexts, such as mitochondria, prions, viral and intrinsically disordered proteins.\nI have accumulated a wealth of hands-on lab experience as a proteomics research technician and later as a graduate student at the University of Victoria Genome British Columbia Proteomics Centre. During this time, I conducted numerous structural proteomics experiments for internally and externally-driven research projects, and have collaborated with colleagues to develop novel technologies and methods. Our efforts have significantly contributed to multiple publications in peer-reviewed journals.\nBeyond the “wet-lab” I cultivated an affinity for programming and software development, realising their potential to enhance analyses in my field. In my most recent role I gained experience in the emerging field of proteogenomics, which combines proteomics and genomics to gain a more comprehensive understanding of protein expression and (dys)function. As someone with a passion for leveraging cutting-edge technologies, I am thrilled to be expanding my expertise in this exciting area of research and I had the chance to create R-based tools for proteogenomic applications. This deepened my understanding of genomics and expanded my perspective to encompass a wider range of multiomic investigations in biological research.\nLooking ahead, my compass is set on harnessing my skillset and years of experience in structural proteomic analyses and bioinformatics to drive the advancement of biological understanding, groundbreaking technologies, and new therapeutic solutions.\n\n\n😄"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Team Building Series: Group Handbooks\n\n\n\n\n\n\n\nlablife\n\n\nquarto\n\n\n\n\n\n\n\n\n\n\n\nAug 10, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nQuarto blog files and directories\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nAug 8, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nWhy is GoodReads Appealing? DOI Polloi\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nAug 6, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nA style guide for my own writing\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nAug 4, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nA toolkit for writing your thesis\n\n\n\n\n\n\n\nLaTeX\n\n\nwriting\n\n\nthesis\n\n\ndissertation\n\n\ntools\n\n\nstyle\n\n\nrecommendations\n\n\n\n\n\n\n\n\n\n\n\nAug 1, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nNaming your files and paths variables\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\nvariables\n\n\nbest practices\n\n\nnaming\n\n\nfiles\n\n\npaths\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nBreaking the RAM Barrier: Soaring to New Heights with arrow-dynamic Data Analysis\n\n\n\n\n\n\n\nR\n\n\ncode\n\n\narrow\n\n\nBTR\n\n\nbig data\n\n\ndatabase\n\n\ndata science\n\n\n\n\n\n\n\n\n\n\n\nJul 21, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nThe Gold Beneath the GUI\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJul 21, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nIntroducing the Proteimon\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJul 21, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nTranslational and Functional Proteomics\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nXL-MS Modular Considerations\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nProteomic Pangeometry Project\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nLinkedIn-style Interview Questions\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nXL-MS Q & A\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nWhen Ligands Meet Proteins: Tales of Folding and Unfolding Revealed by Structural Proteomics\n\n\n\n\n\n\n\nquarto\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\n  \n\n\n\n\nImproving Interactome Identification: The Triple Threat of Affinity, Isotopic Coding, and Cleavability\n\n\n\n\n\n\n\ncrosslinking\n\n\nmethod development\n\n\ncbdps\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\nKarl Makepeace\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/packages/hagelslag/index.html",
+    "href": "projects/packages/hagelslag/index.html",
+    "title": "hagelslag",
+    "section": "",
+    "text": "Inspired by the Dutch hagelslag."
   }
 ]
