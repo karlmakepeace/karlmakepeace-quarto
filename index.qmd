@@ -1,12 +1,148 @@
 ---
-title: "Karl Makepeace, Ph.D."
+# title: "Karl Makepeace, Ph.D."
+toc: false
+# image: static/images/km_avatar_lbl.jpeg
+image: static/images/km_avatar_mqss_1.png
+about:
+  template: trestles
+  image-shape: round
+# listing:
+#   contents: posts
+#   sort: "date desc"
+#   type: default
+#   categories: true
+#   sort-ui: false
+#   filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-## Hi there 👋
+<!-- ./index.qmd -->
 
-My personal website here is currently under construction. Should be up-to-date soon - stay tuned!
+## Karl A. T. Makepeace, Ph.D.
+
+<!-- > To ask what others have not is the surest path to advantage. -->
+
+<!-- I hold a Ph.D. in biochemistry from the University of Victoria. My journey of over 12 years in research has been dedicated to the fascinating realm of mass spectrometry-based techniques, structural proteomics, and bioinformatics. I am an expert in cross-linking mass spectrometry (XL-MS), having developed and applied innovative methods for studying protein structure, dynamics, and interactions in various biological contexts, such as mitochondria, prions, viral and intrinsically disordered proteins. -->
+
+<!-- Beyond the wet-lab and I have cultivated an affinity for programming and software development, leveraging their potential to enhance analyses in my field. Recently, I've focused on creating R-based tools for proteogenomic applications. This has deepened my understanding of genomics and expanded my perspective to encompass a wider range of multiomic investigations in biological research. -->
+
+<!-- Looking ahead, my compass is set on harnessing my skillset and years of experience in structural proteomic analyses and bioinformatics to drive the advancement of biological understanding, groundbreaking technologies, and new therapeutic solutions. -->
+
+<!-- ## Purpose of this Personal Website -->
+
+<!-- The primary purpose of this site is to provide a stable and consistent "home base" on the web that's solely under my control and anyone can visit (no logins needed!). -->
+
+<!-- ### Motivation(s) -->
+
+<!-- Initially motivated by [Posit](https://posit.co/) (formerly [RStudio](https://posit.co/blog/rstudio-is-now-posit/)) recently ([July 2022](https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)) releasing [Quarto](https://quarto.org/) (and moving on from `rmarkdown`). Getting the personal webpage up-and-running was a good way to play around with the new system. Also, it's simple enough to (hopefully) keep up with + maintain the site. -->
+
+<!-- It allows me to: -->
+
+<!-- -   showcase myself -->
+
+<!-- -   share my research and other interests -->
+
+<!-- -   develop my thoughts on various topics -->
+
+<!-- -   link to me elsewhere on the web -->
+
+<!-- > *Science in pursuit,\ -->
+<!-- > Biochemistry's realm,\ -->
+<!-- > A decade unfolds.* -->
+
+<!-- > *Mass spectrometrist,\ -->
+<!-- > Revealing proteins' secrets,\ -->
+<!-- > Orbitrap sees all.* -->
+
+<!-- > *Bioinformatics,\ -->
+<!-- > Multiomic symphony plays,\ -->
+<!-- > Proteogenome.* -->
+<!-- *Programming embraced,\ -->
+<!-- R-based tools in my grasp,\ -->
+<!-- Genomic vistas.* -->
+
+<!-- *Bioinformatics,\ -->
+<!-- Multiomic symphony plays,\ -->
+<!-- Proteogenome.* -->
+
+<!-- 2 -->
+
+<!-- *Science in pursuit,\ -->
+<!-- Biochemistry's realm,\ -->
+<!-- A decade unfolds.* -->
+
+<!-- *Mass spectrometrist,\ -->
+<!-- Revealing proteins' secrets,\ -->
+<!-- Orbitrap sees all.* -->
+
+<!-- *Cross-linking expert,\ -->
+<!-- Proteins covalently bound,\ -->
+<!-- Fragments to networks.* -->
+
+<!-- *Prions and chaperones,\ -->
+<!-- Dynamics under study,\ -->
+<!-- Disorder intrigues.* -->
+
+<!-- *Mitochondria probed,\ -->
+<!-- Proteins' sociology told,\ -->
+<!-- Interactomic view* -->
+
+<!-- *Bioinformatics,\ -->
+<!-- A proteogenomic expanse,\ -->
+<!-- R skills honed, tools forged* -->
+
+<!-- [More about me ➡️](about.qmd) -->
+
+
+
+:::: {.columns}
+::: {.column width="33%"}
+*Science in pursuit,\
+Biochemistry's realm,\
+A decade unfolds.*
+
+*Mass spectrometrist,\
+Revealing proteins' secrets,\
+Orbitrap sees all.*
+
+*Cross-linking expert,\
+Proteins covalently bound,\
+Fragments to networks.*
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="33%"}
+*Prions and chaperones,\
+Dynamics under study,\
+Disorder intrigues.*
+
+*Mitochondria probed,\
+Proteins' sociology told,\
+Interactomic view*
+
+*Bioinformatics,\
+A proteogenomic expanse,\
+R skills honed, tools forged*
+:::
+
+::: {.column width="29%"}
+<!-- empty column to create gap -->
+:::
+::::
+
+
+[More about me ➡️](about.qmd){id='haiku'}
+
+
+<!-- With a background in mass spectrometry, structural proteomics, and bioinformatics, my focus lies in synergizing these disciplines. This convergence not only enhances our comprehension of biological phenomena but also lays the groundwork for innovative technologies, advanced analytical methods, and the potential for novel therapeutic breakthroughs. -->
+
 
 ```{r}
 #| echo: false
-emo::ji("construction")
+tippy::tippy_this(elementId = "haiku", tooltip = "... and less haiku.")
 ```
