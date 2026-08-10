@@ -1,97 +1,16 @@
 ---
-# title: "Karl Makepeace, Ph.D."
+title: "Karl A. T. Makepeace, Ph.D."
 toc: false
-# image: static/images/km_avatar_lbl.jpeg
-image: static/images/km_avatar_mqss_1.png
-about:
-  template: trestles
-  image-shape: round
-# listing:
-#   contents: posts
-#   sort: "date desc"
-#   type: default
-#   categories: true
-#   sort-ui: false
-#   filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
+I'm a proteomics researcher with a background in mass spectrometry, structural biology, and computational analysis. I completed my Ph.D. in Biochemistry at the University of Victoria, where I spent several years at the UVic Genome BC Proteomics Centre developing and applying mass spectrometry-based structural proteomics methods. My work there spanned cross-linking mass spectrometry, hydrogen-deuterium exchange (HDX), and the characterization of protein structure, dynamics, and interactions in systems ranging from bacteria and mitochondria to prions, viral and intrinsically disordered proteins.
 
-<!-- ./index.qmd -->
+Along the way, I became deeply involved in the computational side of proteomics, building analytical workflows, writing software, and creating ways to extract more interpretable information from increasingly complex datasets. What started as a practical necessity gradually became a major part of how I think about scientific problems.
 
-## Karl A. T. Makepeace, Ph.D.
+I'm currently a Postdoctoral Research Scientist at Columbia University, where my focus has expanded into quantitative and clinical proteomics. Much of my recent work involves DIA-based analysis, label-free quantification, proteoform-level interpretation, and developing reproducible pipelines for large-scale biological and clinical studies. This has included analyzing human cerebrospinal fluid, characterizing the proteomic consequences of oncogenic splicing factor mutations, and exploring protein network changes in cancer and neurodegenerative disease. These projects have given me a broader multiomic perspective, including experience in proteogenomics and variant-aware proteomic analysis.
 
-<!-- > To ask what others have not is the surest path to advantage. -->
+I enjoy working at the intersection of experimental proteomics, computation, and method development, whether that involves designing cross-linking strategies, refining DIA workflows, or building R packages to make complex analyses easier to reproduce and understand. My long-term aim is simple: to push proteomics toward deeper, more structurally informed, and more biologically meaningful measurements.
 
-<!-- ## Purpose of this Personal Website -->
+😄
 
-<!-- The primary purpose of this site is to provide a stable and consistent "home base" on the web that's solely under my control and anyone can visit (no logins needed!). -->
-
-<!-- ### Motivation(s) -->
-
-<!-- Initially motivated by [Posit](https://posit.co/) (formerly [RStudio](https://posit.co/blog/rstudio-is-now-posit/)) recently ([July 2022](https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/)) releasing [Quarto](https://quarto.org/) (and moving on from `rmarkdown`). Getting the personal webpage up-and-running was a good way to play around with the new system. Also, it's simple enough to (hopefully) keep up with + maintain the site. -->
-
-<!-- It allows me to: -->
-
-<!-- -   showcase myself -->
-
-<!-- -   share my research and other interests -->
-
-<!-- -   develop my thoughts on various topics -->
-
-<!-- -   link to me elsewhere on the web -->
-
-
-
-
-:::: {.columns}
-::: {.column width="36%"}
-*Science in pursuit,\
-Biochemistry's realm,\
-A decade unfolds.*
-
-*Mass spectrometrist,\
-Revealing proteins' secrets,\
-Orbitrap sees all.*
-
-*Cross-linking expert,\
-Proteins covalently bound,\
-Fragments to networks.*
-
-:::
-
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="36%"}
-*Prions and chaperones,\
-Dynamics under study,\
-Disorder intrigues.*
-
-*Mitochondria probed,\
-Proteins' sociology told,\
-Interactomic view*
-
-*Bioinformatics,\
-A proteogenomic expanse,\
-R skills honed, tools forged*
-:::
-
-::: {.column width="35%"}
-<!-- empty column to create gap -->
-:::
-::::
-
-
-[More about me ➡️](about.qmd){id='haiku'}
-
-
-<!-- With a background in mass spectrometry, structural proteomics, and bioinformatics, my focus lies in synergizing these disciplines. This convergence not only enhances our comprehension of biological phenomena but also lays the groundwork for innovative technologies, advanced analytical methods, and the potential for novel therapeutic breakthroughs. -->
-
-
-```{r}
-#| echo: false
-tippy::tippy_this(elementId = "haiku", tooltip = "... and less haiku.")
-```
+[ORCID: 0000-0001-9584-2750](https://orcid.org/0000-0001-9584-2750)

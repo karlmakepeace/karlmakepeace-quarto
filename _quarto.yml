@@ -12,17 +12,17 @@ website:
   navbar:
     title: "KATM"
     logo: static/images/favicon.png
-    left:
+    # left:
       # - href: index.qmd
       #   text: Home
-      - href: about.qmd
-        text: About
+      # - href: about.qmd
+      #   text: About
       # - href: projects.qmd
       #   text: Projects
       # - href: posts.qmd
       #   text: Posts
-      - href: "./static/cv/karl-makepeace_cv_2023-08-14.pdf"
-        text: CV
+      # - href: "./static/cv/karl-makepeace_cv_2023-08-14.pdf"
+      #   text: CV
   page-footer:
     left:
       # - href: https://www.quarto.org

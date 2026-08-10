@@ -38,5 +38,12 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# Quarto
 /.quarto/
 /_site/
+/_freeze/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
