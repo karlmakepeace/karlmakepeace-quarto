@@ -1,0 +1,46 @@
+---
+title: "Structural Proteomics by Crosslinking Mass Spectrometry"
+subtitle: "Ph.D. research, University of Victoria / Genome BC Proteomics Centre"
+toc: true
+---
+
+[← Research](index.qmd)
+
+Before moving into quantitative and clinical proteomics, I worked in Christoph Borchers' lab developing and applying cross-linking mass spectrometry (XL-MS) — a technique that captures spatial constraints between residues in a protein or complex, giving structural information in systems too dynamic, too large, or too intractable for crystallography or cryo-EM alone. My work spanned reagent and software development, chaperone mechanism, intrinsically disordered proteins, and applied structural biology of pathogens.
+
+### Reagent & software development
+
+I contributed to the development of isotopically-coded, MS-cleavable and photo-reactive crosslinking reagents designed to make crosslinked peptides easier to distinguish from the vast excess of unmodified peptide background, and to **DXMSMS Match**, software for automated analysis of the resulting LC-MS/MS data. A related method I developed combined non-specific proteinase K digestion with higher-order (three-peptide) crosslink analysis to substantially improve disulfide bond identification in proteins.
+
+### Chaperone mechanism & disordered proteins
+
+Using XL-MS together with hydrogen-deuterium exchange, I mapped the client-binding site of the ATP-independent chaperone Spy, contributing to a broader study of how chaperone flexibility governs client binding ("Super Spy" variants, *eLife*), and contributed structural mass spectrometry data toward the characterization of client binding by a 2-cysteine peroxiredoxin chaperone (*Nature Communications*). A parallel line of work used crosslinking-guided discrete molecular dynamics simulations to characterize the native structure and oligomerization of the intrinsically disordered protein tau (*Structure*).
+
+### Applied structural biology
+
+I applied these methods to pathogen structural biology — the export mechanism of EspB from the *M. tuberculosis* ESX-1 type VII secretion system (*Structure*), and the interdomain organization of the *Plasmodium falciparum* surface protein Pf12 (*Journal of Biological Chemistry*) — as well as to the in-organello mitochondrial protein interactome and the structural characterization of prion protein aggregates by isotopically-coded oxidative labeling.
+
+### Into bioinformatics
+
+Between 2020 and 2022 I moved into a bioinformatics-focused role in the same department, building R-based tools for proteogenomics: `{hgvsr}`, an R package for interpreting HGVS variant nomenclature and evaluating the resulting peptides for LC-MS suitability, and **PIGQpipe**, a `{shiny}` web application for predicting variant-peptide coverage across different proteases. That work is the direct bridge to the proteogenomic and isoform-resolved DIA-MS methods I now apply at Columbia.
+
+Crosslinking data and mass spectrometry expertise from this period were also acknowledged in a few externally led structural studies from Patrick Cramer's lab, including the RNA Polymerase II–Mediator core initiation complex (Plaschka et al., *Nature*) and the Mediator middle module (Larivière et al., *Nucleic Acids Research*).
+
+## Selected publications
+
+*Asterisked authors contributed equally.*
+
+-   Makepeace KAT\*, Mohammed Y\*, Rudashevskaya EL\*, et al. Improving identification of in-organello protein–protein interactions using an affinity-enrichable, isotopically-coded, and mass spectrometry-cleavable chemical crosslinker. [*Molecular & Cellular Proteomics*, 2020](https://doi.org/10.1074/mcp.ra119.001839).
+-   Makepeace KAT\*, Brodie NI\*, Popov KI\*, et al. Ligand-induced disorder-to-order transitions characterized by structural proteomics and molecular dynamics simulations. [*Journal of Proteomics*, 2020](https://doi.org/10.1016/j.jprot.2019.103544).
+-   Popov KI\*, Makepeace KAT\*, Petrotchenko EV, Dokholyan NV, Borchers CH. Insight into the structure of the "unstructured" tau protein. [*Structure*, 2019](https://doi.org/10.1016/j.str.2019.09.003).
+-   Teixeira F, Tse E, Castro H, Makepeace KAT, et al. Chaperone activation and client binding of a 2-cysteine peroxiredoxin. [*Nature Communications*, 2019](https://doi.org/10.1038/s41467-019-08565-8).
+-   Groitl B, Horowitz S, Makepeace KAT, et al. Protein unfolding as a switch from self-recognition to high-affinity client binding. [*Nature Communications*, 2016](https://doi.org/10.1038/ncomms10357).
+-   Makepeace KAT, Serpa JJ, Petrotchenko EV, Borchers CH. Comprehensive identification of disulfide bonds using non-specific proteinase K digestion and CID-cleavable crosslinking analysis methodology. [*Methods*, 2015](https://doi.org/10.1016/j.ymeth.2015.02.021).
+-   Solomonson M, Setiaputra D, Makepeace KAT, et al. Structure of EspB from the ESX-1 type VII secretion system and insights into its export mechanism. [*Structure*, 2015](https://doi.org/10.1016/j.str.2015.01.002).
+-   Petrotchenko EV, Makepeace KAT, Borchers CH. DXMSMS Match program for automated analysis of LC-MS/MS data obtained using isotopically-coded CID-cleavable crosslinking reagents. [*Current Protocols in Bioinformatics*, 2014](https://doi.org/10.1002/0471250953.bi0818s48).
+-   Brodie NI, Makepeace KAT, Petrotchenko EV, Borchers CH. Isotopically-coded short-range hetero-bifunctional photo-reactive crosslinkers for studying protein structure. [*Journal of Proteomics*, 2014](https://doi.org/10.1016/j.jprot.2014.08.012).
+-   Quan S, Wang L, Petrotchenko EV, Makepeace KAT, et al. Super Spy variants implicate flexibility in chaperone action. [*eLife*, 2014](https://doi.org/10.7554/elife.01584).
+-   Serpa JJ, Makepeace KAT, Borchers TH, Wishart DS, Petrotchenko EV, Borchers CH. Using isotopically-coded hydrogen peroxide as a surface modification reagent for the structural characterization of prion protein aggregates. [*Journal of Proteomics*, 2013](https://doi.org/10.1016/j.jprot.2013.11.020).
+-   Tonkin ML, Arredondo SA, Loveless BC, Serpa JJ, Makepeace KAT, et al. Structural and biochemical characterization of *Plasmodium falciparum* 12 (Pf12) reveals a unique interdomain organization. [*Journal of Biological Chemistry*, 2013](https://doi.org/10.1074/jbc.m113.455667).
+
+For the complete list, see my [Google Scholar](https://scholar.google.ca/citations?user=W0-D1aYAAAAJ) profile or [ORCID record](https://orcid.org/0000-0001-9584-2750).

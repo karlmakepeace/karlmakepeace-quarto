@@ -1,0 +1,38 @@
+---
+title: "Splicing Factor Mutations & the Leukemia Proteome"
+subtitle: "A probabilistic, isoform-resolved DIA-MS proteogenomic analysis"
+toc: true
+---
+
+[← Research](index.qmd)
+
+## Background
+
+Recurrent mutations in the splicing factor genes *SF3B1*, *U2AF1*, and *SRSF2* are among the most common drivers of myelodysplastic syndromes (MDS) and secondary acute myeloid leukemia (sAML). All three disrupt pre-mRNA splicing and are thought to drive disease through dysregulated gene expression. However, while their transcriptomic consequences are well characterized, their downstream impact on the proteome—the functional layer where splicing-driven changes are ultimately executed—remains comparatively underexplored. This project profiles the proteomes of CRISPR/Cas9-engineered K-562 leukemia cells carrying the SF3B1-K700E, U2AF1-S34F, or SRSF2-P95H mutations, alongside an isogenic wild-type control, using label-free DIA mass spectrometry.
+
+## Approach
+
+Two key features distinguish this analysis from a standard differential-expression study:
+
+First, quantification utilizes **{limpa}**, a probabilistic, imputation-free framework (Li, Cobbold & Smyth). By modeling a Detection Probability Curve for each sample, it derives protein abundance estimates directly from the pattern of observed and missing data, circumventing the imputation assumptions that can severely bias results.
+
+Second, identification relies on a customized proteogenomic database search. By integrating RNA-seq-informed splice-junction and variant sequences with PEAKS' *de novo*, Sequence Variant, and Novel Peptide search modules, we capture splicing-associated proteoforms directly at the peptide level.
+
+Building on this, I developed a three-tier differential-usage framework to maximize biological resolution:
+
+*   **Differential Protein Group Abundance (DPGA):** Asks whether a gene's total translational output shifted.
+*   **Differential Isoform Group Usage (DIGU):** Asks whether the relative usage of its known isoforms changed.
+*   **Differential Peptide Usage (DPU):** Asks whether individual peptides deviate significantly from their parent protein’s overall abundance trend, exposing localized structural dynamics—such as cryptic splicing events, altered proteolytic processing, or changes in post-translational modifications (PTMs)—that protein-level rollups obscure.
+
+## Key findings
+
+-   Across 6,113 quantified protein groups, all three mutants display widespread, mutation-specific remodeling relative to wild-type, resolved simultaneously across a full set of pairwise mutant-vs-mutant contrasts.
+-   Strikingly, 39 protein groups—including HNRNPA2B1, HNRNPK, HNRNPM, the splicing kinase SRPK1, and two distinct proteoforms of PTBP1—are supported *exclusively* by novel splice-junction peptides that would be completely invisible to a canonical-only database search.
+-   Isoform-resolving peptides enable us to distinguish differentially regulated isoforms from their unchanged counterparts within the same gene. For instance, HNRNPH3 is consistently down-regulated across all three mutants, while NDUFV3 exhibits a genuine isoform-usage shift accompanying its abundance change specifically in SRSF2-P95H cells.
+-   Pathway analysis highlights mutation-specific remodeling concentrated within the spliceosome and RNA-processing machinery, alongside strong signatures in innate-immune signaling and hematologic-malignancy pathways.
+
+<!-- figure: DPGA volcano plot / PCA -->
+
+::: {.callout-note title="Status"}
+Presented as an oral talk at ASMS 2025 (Baltimore, Cancer Research session); manuscript in preparation with the Manley lab. Collaborators: Pedro Bak-Gordon, David S. Johnson, Chloe J. Jones, Claire E. Sattler, Lewis M. Brown, James L. Manley (Columbia University).
+:::

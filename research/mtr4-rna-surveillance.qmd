@@ -1,0 +1,28 @@
+---
+title: "Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome"
+subtitle: "Quantitative and isoform-aware proteomics of Mtr4 depletion"
+toc: true
+---
+
+[← Research](index.qmd)
+
+## Background
+
+Mtr4 (MTREX) is a conserved RNA helicase and essential cofactor of the nuclear RNA exosome, responsible for surveilling and degrading aberrant and unstable nuclear RNAs. Its transcriptomic consequences are well documented, but what happens to the proteome — and to cell signaling — when nuclear RNA surveillance fails has been much less clear. I hypothesized that losing Mtr4 would be sufficient to trigger detectable stress signaling at the protein level, not just an RNA-processing defect.
+
+## Approach
+
+Using DIA mass spectrometry in Mtr4-depleted HEK293T cells (siRNA knockdown vs. non-targeting control, biological triplicate), I applied the same three-tier differential-usage framework — protein-group abundance, isoform usage, and peptide usage — developed for the [splicing-factor leukemia project](splicing-factor-proteogenomics.qmd), together with {limpa}/{limma}-based quantification and STRING/KEGG functional enrichment.
+
+## Key findings
+
+- The single most significantly enriched signature in the dataset is coordinated destabilization of the TRAMP complex and core nuclear exosome components — direct proteomic confirmation that Mtr4 loss structurally compromises the surveillance machinery it belongs to, not just its RNA substrates.
+- Cytoplasmic ribosomal proteins are broadly down-regulated, consistent with the translational repression previously described for Mtr4/ZFC3H1 loss. RACK1 — the scaffold that lets the stress kinase ZAKα detect collided ribosomes — is depleted beyond the general ribosomal trend, pointing to active ribosome-collision quality control as an additional driver.
+- Isoform-aware analysis resolves a mechanism invisible to standard protein-level analysis: selective depletion of ZAKβ, the antagonist isoform of the ribosome-collision kinase MAP3K20, while the sensor isoform ZAKα is unchanged. This isoform switch implicates disinhibition of ZAKα and activation of the ribotoxic stress response as a link between translational stress and downstream signaling.
+- Peptide-level analysis surfaces a class of "DPU-only" hits — proteins with significant peptide-level shifts but no significant change in total abundance — including a single-peptide-driven signal in the catalytic exosome subunit RRP44/DIS3, consistent with concurrent evidence that Mtr4 loss redistributes the exosome within the nucleus.
+
+<!-- figure: differential protein group / isoform volcano plot -->
+
+::: {.callout-note title="Status"}
+Presented as a poster at ASMS 2026 (San Diego, "Systems Biology" session); manuscript in preparation for *Molecular & Cellular Proteomics*. Collaborators: Pavel A. Vlasov, James L. Manley, Lewis M. Brown (Columbia University).
+:::

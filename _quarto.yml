@@ -13,8 +13,8 @@ website:
     title: "KATM"
     logo: static/images/favicon.png
     # left:
-      # - href: index.qmd
-      #   text: Home
+      # - href: research/index.qmd
+      #   text: Research
       # - href: about.qmd
       #   text: About
       # - href: projects.qmd

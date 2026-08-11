@@ -1,0 +1,41 @@
+---
+title: "Research"
+subtitle: "Proteomics methods for structurally- and functionally-resolved biology"
+toc: false
+---
+
+My research sits at the intersection of mass spectrometry, structural biology, systems biology, and computational method development. During my Ph.D. I used cross-linking mass spectrometry to map protein structure and interactions directly; as a postdoctoral researcher at Columbia, I've moved toward quantitative and clinical proteo(geno)mics to understand disease biology. Throughout, we have continued to develop methods and tailor our approaches to the questions we want to answer — building the analytical tools and software that let a mass spectrometry dataset say more than just "up" or "down."
+
+## Current Research
+
+:::::: research-list
+::: research-entry
+### [Splicing Factor Mutations & the Leukemia Proteome](splicing-factor-proteogenomics.qmd)
+
+Mapping how *SF3B1*, *U2AF1*, and *SRSF2* mutations remodel the leukemia cell proteome, down to the specific novel splice-junction peptides responsible, using DIA-MS and a three-tier differential-usage framework I built.
+:::
+
+::: research-entry
+### [Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome](mtr4-rna-surveillance.qmd)
+
+What happens to the proteome when the RNA exosome's surveillance cofactor Mtr4 is lost: exosome collapse, translational repression, and an isoform-resolved switch implicating activation of the ribotoxic stress response.
+:::
+
+::: research-entry
+### [Proteomics for a Multiomic Alzheimer's Disease Cohort](csf-alzheimers-proteomics.qmd)
+
+Documenting the DIA-based quantification methodology behind a 500-participant CSF proteomics dataset and profiling plasma from a cohort subset, within a 1,000-person multiomic Alzheimer's disease study led by the Mayeux group.
+:::
+::::::
+
+## Past Research
+
+:::: research-list
+::: research-entry
+### [Structural Proteomics by Crosslinking Mass Spectrometry](phd-structural-proteomics.qmd)
+
+Ph.D. research at the University of Victoria developing and applying cross-linking mass spectrometry to study chaperone mechanism, intrinsically disordered proteins, and pathogen structural biology.
+:::
+::::
+
+For a complete list of publications, see my [Google Scholar](https://scholar.google.ca/citations?user=W0-D1aYAAAAJ) profile or [ORCID record](https://orcid.org/0000-0001-9584-2750). A full CV is available as a [PDF](../static/cv/karl-makepeace_cv_2023-08-14.pdf).

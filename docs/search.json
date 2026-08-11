@@ -1,9 +1,128 @@
 [
   {
+    "objectID": "research/splicing-factor-proteogenomics.html",
+    "href": "research/splicing-factor-proteogenomics.html",
+    "title": "Splicing Factor Mutations & the Leukemia Proteome",
+    "section": "",
+    "text": "← Research"
+  },
+  {
+    "objectID": "research/splicing-factor-proteogenomics.html#background",
+    "href": "research/splicing-factor-proteogenomics.html#background",
+    "title": "Splicing Factor Mutations & the Leukemia Proteome",
+    "section": "Background",
+    "text": "Background\nRecurrent mutations in the splicing factor genes SF3B1, U2AF1, and SRSF2 are among the most common drivers of myelodysplastic syndromes (MDS) and secondary acute myeloid leukemia (sAML). All three disrupt pre-mRNA splicing and are thought to drive disease through dysregulated gene expression. However, while their transcriptomic consequences are well characterized, their downstream impact on the proteome—the functional layer where splicing-driven changes are ultimately executed—remains comparatively underexplored. This project profiles the proteomes of CRISPR/Cas9-engineered K-562 leukemia cells carrying the SF3B1-K700E, U2AF1-S34F, or SRSF2-P95H mutations, alongside an isogenic wild-type control, using label-free DIA mass spectrometry."
+  },
+  {
+    "objectID": "research/splicing-factor-proteogenomics.html#approach",
+    "href": "research/splicing-factor-proteogenomics.html#approach",
+    "title": "Splicing Factor Mutations & the Leukemia Proteome",
+    "section": "Approach",
+    "text": "Approach\nTwo key features distinguish this analysis from a standard differential-expression study:\nFirst, quantification utilizes {limpa}, a probabilistic, imputation-free framework (Li, Cobbold & Smyth). By modeling a Detection Probability Curve for each sample, it derives protein abundance estimates directly from the pattern of observed and missing data, circumventing the imputation assumptions that can severely bias results.\nSecond, identification relies on a customized proteogenomic database search. By integrating RNA-seq-informed splice-junction and variant sequences with PEAKS’ de novo, Sequence Variant, and Novel Peptide search modules, we capture splicing-associated proteoforms directly at the peptide level.\nBuilding on this, I developed a three-tier differential-usage framework to maximize biological resolution:\n\nDifferential Protein Group Abundance (DPGA): Asks whether a gene’s total translational output shifted.\nDifferential Isoform Group Usage (DIGU): Asks whether the relative usage of its known isoforms changed.\nDifferential Peptide Usage (DPU): Asks whether individual peptides deviate significantly from their parent protein’s overall abundance trend, exposing localized structural dynamics—such as cryptic splicing events, altered proteolytic processing, or changes in post-translational modifications (PTMs)—that protein-level rollups obscure."
+  },
+  {
+    "objectID": "research/splicing-factor-proteogenomics.html#key-findings",
+    "href": "research/splicing-factor-proteogenomics.html#key-findings",
+    "title": "Splicing Factor Mutations & the Leukemia Proteome",
+    "section": "Key findings",
+    "text": "Key findings\n\nAcross 6,113 quantified protein groups, all three mutants display widespread, mutation-specific remodeling relative to wild-type, resolved simultaneously across a full set of pairwise mutant-vs-mutant contrasts.\nStrikingly, 39 protein groups—including HNRNPA2B1, HNRNPK, HNRNPM, the splicing kinase SRPK1, and two distinct proteoforms of PTBP1—are supported exclusively by novel splice-junction peptides that would be completely invisible to a canonical-only database search.\nIsoform-resolving peptides enable us to distinguish differentially regulated isoforms from their unchanged counterparts within the same gene. For instance, HNRNPH3 is consistently down-regulated across all three mutants, while NDUFV3 exhibits a genuine isoform-usage shift accompanying its abundance change specifically in SRSF2-P95H cells.\nPathway analysis highlights mutation-specific remodeling concentrated within the spliceosome and RNA-processing machinery, alongside strong signatures in innate-immune signaling and hematologic-malignancy pathways.\n\n\n\n\n\n\n\n\nStatus\n\n\n\nPresented as an oral talk at ASMS 2025 (Baltimore, Cancer Research session); manuscript in preparation with the Manley lab. Collaborators: Pedro Bak-Gordon, David S. Johnson, Chloe J. Jones, Claire E. Sattler, Lewis M. Brown, James L. Manley (Columbia University)."
+  },
+  {
+    "objectID": "research/mtr4-rna-surveillance.html",
+    "href": "research/mtr4-rna-surveillance.html",
+    "title": "Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome",
+    "section": "",
+    "text": "← Research"
+  },
+  {
+    "objectID": "research/mtr4-rna-surveillance.html#background",
+    "href": "research/mtr4-rna-surveillance.html#background",
+    "title": "Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome",
+    "section": "Background",
+    "text": "Background\nMtr4 (MTREX) is a conserved RNA helicase and essential cofactor of the nuclear RNA exosome, responsible for surveilling and degrading aberrant and unstable nuclear RNAs. Its transcriptomic consequences are well documented, but what happens to the proteome — and to cell signaling — when nuclear RNA surveillance fails has been much less clear. I hypothesized that losing Mtr4 would be sufficient to trigger detectable stress signaling at the protein level, not just an RNA-processing defect."
+  },
+  {
+    "objectID": "research/mtr4-rna-surveillance.html#approach",
+    "href": "research/mtr4-rna-surveillance.html#approach",
+    "title": "Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome",
+    "section": "Approach",
+    "text": "Approach\nUsing DIA mass spectrometry in Mtr4-depleted HEK293T cells (siRNA knockdown vs. non-targeting control, biological triplicate), I applied the same three-tier differential-usage framework — protein-group abundance, isoform usage, and peptide usage — developed for the splicing-factor leukemia project, together with {limpa}/{limma}-based quantification and STRING/KEGG functional enrichment."
+  },
+  {
+    "objectID": "research/mtr4-rna-surveillance.html#key-findings",
+    "href": "research/mtr4-rna-surveillance.html#key-findings",
+    "title": "Nuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome",
+    "section": "Key findings",
+    "text": "Key findings\n\nThe single most significantly enriched signature in the dataset is coordinated destabilization of the TRAMP complex and core nuclear exosome components — direct proteomic confirmation that Mtr4 loss structurally compromises the surveillance machinery it belongs to, not just its RNA substrates.\nCytoplasmic ribosomal proteins are broadly down-regulated, consistent with the translational repression previously described for Mtr4/ZFC3H1 loss. RACK1 — the scaffold that lets the stress kinase ZAKα detect collided ribosomes — is depleted beyond the general ribosomal trend, pointing to active ribosome-collision quality control as an additional driver.\nIsoform-aware analysis resolves a mechanism invisible to standard protein-level analysis: selective depletion of ZAKβ, the antagonist isoform of the ribosome-collision kinase MAP3K20, while the sensor isoform ZAKα is unchanged. This isoform switch implicates disinhibition of ZAKα and activation of the ribotoxic stress response as a link between translational stress and downstream signaling.\nPeptide-level analysis surfaces a class of “DPU-only” hits — proteins with significant peptide-level shifts but no significant change in total abundance — including a single-peptide-driven signal in the catalytic exosome subunit RRP44/DIS3, consistent with concurrent evidence that Mtr4 loss redistributes the exosome within the nucleus.\n\n\n\n\n\n\n\n\nStatus\n\n\n\nPresented as a poster at ASMS 2026 (San Diego, “Systems Biology” session); manuscript in preparation for Molecular & Cellular Proteomics. Collaborators: Pavel A. Vlasov, James L. Manley, Lewis M. Brown (Columbia University)."
+  },
+  {
+    "objectID": "research/csf-alzheimers-proteomics.html",
+    "href": "research/csf-alzheimers-proteomics.html",
+    "title": "Proteomics for a Multiomic Alzheimer’s Disease Cohort",
+    "section": "",
+    "text": "← Research"
+  },
+  {
+    "objectID": "research/csf-alzheimers-proteomics.html#background",
+    "href": "research/csf-alzheimers-proteomics.html#background",
+    "title": "Proteomics for a Multiomic Alzheimer’s Disease Cohort",
+    "section": "Background",
+    "text": "Background\nThis project is part of a larger multiomic study of familial and sporadic Alzheimer’s disease (AD), led by Richard Mayeux’s group at Columbia’s Taub Institute and integrating genetics, epigenomics, transcriptomics, proteomics, and metabolomics across a 1,000-person cohort spanning Caribbean Hispanic and white/Black non-Hispanic participants in the U.S. and the Dominican Republic — a population in which Caribbean Hispanics face roughly threefold higher AD risk by age 75 than white non-Hispanics. Cerebrospinal fluid (CSF) from 500 participants had already been collected, prepared, and profiled by DIA mass spectrometry before I joined the team; my role has been writing and documenting the DIA-based label-free quantification methodology behind that dataset and presenting its interim results, and, separately, profiling plasma from a subset of the same cohort."
+  },
+  {
+    "objectID": "research/csf-alzheimers-proteomics.html#approach",
+    "href": "research/csf-alzheimers-proteomics.html#approach",
+    "title": "Proteomics for a Multiomic Alzheimer’s Disease Cohort",
+    "section": "Approach",
+    "text": "Approach\nCSF samples were depleted of abundant proteins, digested, and analyzed by label-free DIA mass spectrometry against a project-specific spectral library built from 120 representative samples. Protein abundances were normalized using TAMPOR (a batch-correction method suited to large clinical cohorts) and tested for association with clinical AD diagnosis and with CSF biomarkers (total tau, P-tau181, Aβ40/42, GFAP, NfL) measured independently by Simoa immunoassay. I later applied the same DIA-LFQ workflow to plasma samples from 60 participants in the cohort."
+  },
+  {
+    "objectID": "research/csf-alzheimers-proteomics.html#key-findings",
+    "href": "research/csf-alzheimers-proteomics.html#key-findings",
+    "title": "Proteomics for a Multiomic Alzheimer’s Disease Cohort",
+    "section": "Key findings",
+    "text": "Key findings\n\nAcross the interim 500-sample analysis, DIA quantified 892 protein groups at 96% data completeness — a scale and completeness that make robust, cohort-wide statistical comparisons possible.\n24 proteins were significantly differentially abundant between clinically diagnosed AD cases and controls after multiple-testing correction, including several with established links to AD pathology: Neogenin, VCAM-1, and LTBP-2.\n41 CSF proteins were significantly associated with P-tau181 levels, among them phospholipase D3, APOE, and osteopontin (increased) and ceruloplasmin (decreased) — associations that extended to the Aβ42/Aβ40 ratio and total tau, but not NfL.\n\n\n\n\n\n\n\nStatus\n\n\n\nPresented as an oral talk at ASMS 2024 (Anaheim, Neuroscience and Neurological Disorders Research session); the underlying DIA-LFQ methodology is published as Makepeace et al., Current Protocols (2024). The full 1,000-participant cohort study is ongoing under the Mayeux group. The plasma dataset is still unpublished two years on; what becomes of it next is up to them."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Karl A. T. Makepeace, Ph.D.",
     "section": "",
     "text": "I’m a proteomics researcher with a background in mass spectrometry, structural biology, and computational analysis. I completed my Ph.D. in Biochemistry at the University of Victoria, where I spent several years at the UVic Genome BC Proteomics Centre developing and applying mass spectrometry-based structural proteomics methods. My work there spanned cross-linking mass spectrometry, hydrogen-deuterium exchange (HDX), and the characterization of protein structure, dynamics, and interactions in systems ranging from bacteria and mitochondria to prions, viral and intrinsically disordered proteins.\nAlong the way, I became deeply involved in the computational side of proteomics, building analytical workflows, writing software, and creating ways to extract more interpretable information from increasingly complex datasets. What started as a practical necessity gradually became a major part of how I think about scientific problems.\nI’m currently a Postdoctoral Research Scientist at Columbia University, where my focus has expanded into quantitative and clinical proteomics. Much of my recent work involves DIA-based analysis, label-free quantification, proteoform-level interpretation, and developing reproducible pipelines for large-scale biological and clinical studies. This has included analyzing human cerebrospinal fluid, characterizing the proteomic consequences of oncogenic splicing factor mutations, and exploring protein network changes in cancer and neurodegenerative disease. These projects have given me a broader multiomic perspective, including experience in proteogenomics and variant-aware proteomic analysis.\nI enjoy working at the intersection of experimental proteomics, computation, and method development, whether that involves designing cross-linking strategies, refining DIA workflows, or building R packages to make complex analyses easier to reproduce and understand. My long-term aim is simple: to push proteomics toward deeper, more structurally informed, and more biologically meaningful measurements.\n😄\nORCID: 0000-0001-9584-2750"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research sits at the intersection of mass spectrometry, structural biology, systems biology, and computational method development. During my Ph.D. I used cross-linking mass spectrometry to map protein structure and interactions directly; as a postdoctoral researcher at Columbia, I’ve moved toward quantitative and clinical proteo(geno)mics to understand disease biology. Throughout, we have continued to develop methods and tailor our approaches to the questions we want to answer — building the analytical tools and software that let a mass spectrometry dataset say more than just “up” or “down.”"
+  },
+  {
+    "objectID": "research/index.html#current-research",
+    "href": "research/index.html#current-research",
+    "title": "Research",
+    "section": "Current Research",
+    "text": "Current Research\n\n\nSplicing Factor Mutations & the Leukemia Proteome\nMapping how SF3B1, U2AF1, and SRSF2 mutations remodel the leukemia cell proteome, down to the specific novel splice-junction peptides responsible, using DIA-MS and a three-tier differential-usage framework I built.\n\n\nNuclear RNA Surveillance, Ribotoxic Stress & the Cell Proteome\nWhat happens to the proteome when the RNA exosome’s surveillance cofactor Mtr4 is lost: exosome collapse, translational repression, and an isoform-resolved switch implicating activation of the ribotoxic stress response.\n\n\nProteomics for a Multiomic Alzheimer’s Disease Cohort\nDocumenting the DIA-based quantification methodology behind a 500-participant CSF proteomics dataset and profiling plasma from a cohort subset, within a 1,000-person multiomic Alzheimer’s disease study led by the Mayeux group."
+  },
+  {
+    "objectID": "research/index.html#past-research",
+    "href": "research/index.html#past-research",
+    "title": "Research",
+    "section": "Past Research",
+    "text": "Past Research\n\n\nStructural Proteomics by Crosslinking Mass Spectrometry\nPh.D. research at the University of Victoria developing and applying cross-linking mass spectrometry to study chaperone mechanism, intrinsically disordered proteins, and pathogen structural biology.\n\n\nFor a complete list of publications, see my Google Scholar profile or ORCID record. A full CV is available as a PDF."
+  },
+  {
+    "objectID": "research/phd-structural-proteomics.html",
+    "href": "research/phd-structural-proteomics.html",
+    "title": "Structural Proteomics by Crosslinking Mass Spectrometry",
+    "section": "",
+    "text": "← Research\nBefore moving into quantitative and clinical proteomics, I worked in Christoph Borchers’ lab developing and applying cross-linking mass spectrometry (XL-MS) — a technique that captures spatial constraints between residues in a protein or complex, giving structural information in systems too dynamic, too large, or too intractable for crystallography or cryo-EM alone. My work spanned reagent and software development, chaperone mechanism, intrinsically disordered proteins, and applied structural biology of pathogens."
+  },
+  {
+    "objectID": "research/phd-structural-proteomics.html#selected-publications",
+    "href": "research/phd-structural-proteomics.html#selected-publications",
+    "title": "Structural Proteomics by Crosslinking Mass Spectrometry",
+    "section": "Selected publications",
+    "text": "Selected publications\nAsterisked authors contributed equally.\n\nMakepeace KAT*, Mohammed Y*, Rudashevskaya EL*, et al. Improving identification of in-organello protein–protein interactions using an affinity-enrichable, isotopically-coded, and mass spectrometry-cleavable chemical crosslinker. Molecular & Cellular Proteomics, 2020.\nMakepeace KAT*, Brodie NI*, Popov KI*, et al. Ligand-induced disorder-to-order transitions characterized by structural proteomics and molecular dynamics simulations. Journal of Proteomics, 2020.\nPopov KI*, Makepeace KAT*, Petrotchenko EV, Dokholyan NV, Borchers CH. Insight into the structure of the “unstructured” tau protein. Structure, 2019.\nTeixeira F, Tse E, Castro H, Makepeace KAT, et al. Chaperone activation and client binding of a 2-cysteine peroxiredoxin. Nature Communications, 2019.\nGroitl B, Horowitz S, Makepeace KAT, et al. Protein unfolding as a switch from self-recognition to high-affinity client binding. Nature Communications, 2016.\nMakepeace KAT, Serpa JJ, Petrotchenko EV, Borchers CH. Comprehensive identification of disulfide bonds using non-specific proteinase K digestion and CID-cleavable crosslinking analysis methodology. Methods, 2015.\nSolomonson M, Setiaputra D, Makepeace KAT, et al. Structure of EspB from the ESX-1 type VII secretion system and insights into its export mechanism. Structure, 2015.\nPetrotchenko EV, Makepeace KAT, Borchers CH. DXMSMS Match program for automated analysis of LC-MS/MS data obtained using isotopically-coded CID-cleavable crosslinking reagents. Current Protocols in Bioinformatics, 2014.\nBrodie NI, Makepeace KAT, Petrotchenko EV, Borchers CH. Isotopically-coded short-range hetero-bifunctional photo-reactive crosslinkers for studying protein structure. Journal of Proteomics, 2014.\nQuan S, Wang L, Petrotchenko EV, Makepeace KAT, et al. Super Spy variants implicate flexibility in chaperone action. eLife, 2014.\nSerpa JJ, Makepeace KAT, Borchers TH, Wishart DS, Petrotchenko EV, Borchers CH. Using isotopically-coded hydrogen peroxide as a surface modification reagent for the structural characterization of prion protein aggregates. Journal of Proteomics, 2013.\nTonkin ML, Arredondo SA, Loveless BC, Serpa JJ, Makepeace KAT, et al. Structural and biochemical characterization of Plasmodium falciparum 12 (Pf12) reveals a unique interdomain organization. Journal of Biological Chemistry, 2013.\n\nFor the complete list, see my Google Scholar profile or ORCID record."
   }
 ]

@@ -1,0 +1,25 @@
+---
+title: "Proteomics for a Multiomic Alzheimer's Disease Cohort"
+subtitle: "DIA-MS methodology and CSF/plasma profiling within a 1,000-person study"
+toc: true
+---
+
+[← Research](index.qmd)
+
+## Background
+
+This project is part of a larger multiomic study of familial and sporadic Alzheimer's disease (AD), led by Richard Mayeux's group at Columbia's Taub Institute and integrating genetics, epigenomics, transcriptomics, proteomics, and metabolomics across a 1,000-person cohort spanning Caribbean Hispanic and white/Black non-Hispanic participants in the U.S. and the Dominican Republic — a population in which Caribbean Hispanics face roughly threefold higher AD risk by age 75 than white non-Hispanics. Cerebrospinal fluid (CSF) from 500 participants had already been collected, prepared, and profiled by DIA mass spectrometry before I joined the team; my role has been writing and documenting the DIA-based label-free quantification methodology behind that dataset and presenting its interim results, and, separately, profiling plasma from a subset of the same cohort.
+
+## Approach
+
+CSF samples were depleted of abundant proteins, digested, and analyzed by label-free DIA mass spectrometry against a project-specific spectral library built from 120 representative samples. Protein abundances were normalized using TAMPOR (a batch-correction method suited to large clinical cohorts) and tested for association with clinical AD diagnosis and with CSF biomarkers (total tau, P-tau181, Aβ40/42, GFAP, NfL) measured independently by Simoa immunoassay. I later applied the same DIA-LFQ workflow to plasma samples from 60 participants in the cohort.
+
+## Key findings
+
+-   Across the interim 500-sample analysis, DIA quantified 892 protein groups at 96% data completeness — a scale and completeness that make robust, cohort-wide statistical comparisons possible.
+-   24 proteins were significantly differentially abundant between clinically diagnosed AD cases and controls after multiple-testing correction, including several with established links to AD pathology: Neogenin, VCAM-1, and LTBP-2.
+-   41 CSF proteins were significantly associated with P-tau181 levels, among them phospholipase D3, APOE, and osteopontin (increased) and ceruloplasmin (decreased) — associations that extended to the Aβ42/Aβ40 ratio and total tau, but not NfL.
+
+::: {.callout-note title="Status"}
+Presented as an oral talk at ASMS 2024 (Anaheim, Neuroscience and Neurological Disorders Research session); the underlying DIA-LFQ methodology is published as Makepeace et al., [*Current Protocols*](https://doi.org/10.1002/cpz1.1014) (2024). The full 1,000-participant cohort study is ongoing under the Mayeux group. The plasma dataset is still unpublished two years on; what becomes of it next is up to them.
+:::
